@@ -14,7 +14,6 @@ function doIt() {
 		--exclude ".tmux.conf" \
 		--exclude ".gitattributes" \
 		--exclude "bootstrap.sh" \
-		--exclude "brew.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
